@@ -1,0 +1,89 @@
+@import url("gruvbox.css");
+
+body {
+    font-family: "Cartograph Mono CF";
+    color: var(--light1);
+
+    background-color: var(--dark0);
+
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    width: 100%;
+
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0% 3%;
+}
+
+H1 {
+    font-style: italic;
+    margin-top: 0px;
+}
+
+H1#uni {
+    color: var(--bright_blue);
+}
+
+H1#program {
+    color: var(--bright_green);
+}
+
+H1#linux {
+    color: var(--bright_yellow);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a, a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: var(--fg1);
+    margin: 7px 0px 7px 1.5em;
+}
+
+.mySearchBar {
+    width: 60%;
+
+    margin: 80px 0 0 0;
+    padding: 0.2em 0.6em 0.3em;
+
+    border-color: var(--bg1);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+
+    background-color: var(--bg0);
+    color: var(--fg1);
+
+    font-size: 20px;
+    font-family: "Cartograph Mono CF";
+    font-style: italic;
+}
