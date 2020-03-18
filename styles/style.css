@@ -56,6 +56,10 @@ H1#linux {
     color: var(--bright_yellow);
 }
 
+H1#various {
+    color: var(--bright_orange);
+}
+
 .links {
     display: flex;
     flex-direction: column;
