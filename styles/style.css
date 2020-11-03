@@ -44,6 +44,10 @@ H1 {
     margin-top: 0px;
 }
 
+H1#kurse {
+    color: var(--bright_red);
+}
+
 H1#uni {
     color: var(--bright_blue);
 }
